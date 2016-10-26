@@ -26,5 +26,7 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
+RUN apt-get install netcat
+
 # Define working directory
 WORKDIR /root
