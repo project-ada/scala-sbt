@@ -25,5 +25,3 @@ RUN \
   apt-get update && \
   apt-get install sbt && \
   sbt sbtVersion
-
-RUN apt-get install netcat-traditional
